@@ -8,11 +8,9 @@ const Home = () => {
       <div className="row align-items-center">
         {/* Profile Picture */}
         <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
-          <img 
-            src="/profile.jpg" 
-            alt="Profile" 
-            className="profile-img img-fluid rounded-circle" 
-          />
+        <img src={`${process.env.PUBLIC_URL}/profile.jpg`} 
+        alt="Profile" className="profile-img img-fluid rounded-circle" />
+
         </div>
         
         {/* Welcome Message */}
